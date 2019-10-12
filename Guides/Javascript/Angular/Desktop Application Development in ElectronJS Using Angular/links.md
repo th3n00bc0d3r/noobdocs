@@ -1,0 +1,7 @@
+[Introduction](#introduction)
+[The Process of Making Applications](#theprocessofmakingapplications)
+[Our Application Architecture](#ourapplicationarchiteccture)
+[Environment Installation Process](#envriomentinstallationprocess)
+[Setting Up the Project](#settinguptheproject)
+[Building the Project](#buildingtheproject)
+[Running the Project](#runningtheproject)
