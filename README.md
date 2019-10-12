@@ -1,4 +1,4 @@
-# noobdocs
+# Noob Docs
 A project to create an online doc system from github
 
 **This is Bold Text**
