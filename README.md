@@ -81,3 +81,5 @@ Issues and Feedback
 ============
 For all issues and Feedback, please feel free to use the Github link as follows
 [https://github.com/th3n00bc0d3r/noobdocs/issues](https://github.com/th3n00bc0d3r/noobdocs/issues)
+
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3271/badge)](https://bestpractices.coreinfrastructure.org/projects/3271)
