@@ -10,7 +10,7 @@ All tutorials and guides are hosted on a github repo. The website itself is host
 
 #### The Directory Structure?
 
-You can find the repo at: ![https://github.com/th3n00bc0d3r/noobdocs](https://github.com/th3n00bc0d3r/noobdocs)
+You can find the repo at: [https://github.com/th3n00bc0d3r/noobdocs](https://github.com/th3n00bc0d3r/noobdocs)
 
 ```
 Guides/ ## Directory for Uploading and Structuing the Guides
@@ -21,7 +21,7 @@ CNAME ## Used for redirecting to Domain Web Address
 README.md ## This is the Home Page
 ```
 
-Now If you look at: ![https://github.com/th3n00bc0d3r/noobdocs/tree/master/Guides/Databases/MySQL/Understanding%20Databases%20(Relational)](https://github.com/th3n00bc0d3r/noobdocs/tree/master/Guides/Databases/MySQL/Understanding Databases (Relational))
+Now If you look at: [https://github.com/th3n00bc0d3r/noobdocs/tree/master/Guides/Databases/MySQL/Understanding%20Databases%20(Relational)](https://github.com/th3n00bc0d3r/noobdocs/tree/master/Guides/Databases/MySQL/Understanding Databases (Relational))
 
 ```
 noobdocs/Guides/Databases/MySQL/Understanding Databases (Relational)/
@@ -34,7 +34,7 @@ noobdocs/Guides/Databases/MySQL/Understanding Databases (Relational)/
 
 #### The Article Directory
 
-![Article](https://i.ibb.co/QdMQtfx/Screenshot-2019-10-13-at-3-08-33-PM.png)
+[Article](https://i.ibb.co/QdMQtfx/Screenshot-2019-10-13-at-3-08-33-PM.png)
 
 ```
 links.md - This is the table of contents of your article
