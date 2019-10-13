@@ -8,7 +8,7 @@ Noob Docs is a complete Git Poweted Documentation System meaning it is a place w
 
 All tutorials and guides are hosted on a github repo. The website itself is hosted on github pages. Noob Docs uses Markdown as the standard for writing and publishing articles. The articles follow a simple folder based hierarchy, just like in the back of the old times where all were organized in folders. Anyone can can fork the repo and add changes to it which can later be merged into the repo. As soon as the changes are merged, Noob Docs automatically fetches them and makes them avaialble for the web. These tutorials are also available to read by just browsing the repo itself too. 
 
-#### The Directory Structure?
+#### The Directory Structure? 
 
 You can find the repo at: [Repo](https://github.com/th3n00bc0d3r/noobdocs)
 
