@@ -10,7 +10,7 @@ All tutorials and guides are hosted on a github repo. The website itself is host
 
 #### The Directory Structure?
 
-You can find the repo at: [https://github.com/th3n00bc0d3r/noobdocs](https://github.com/th3n00bc0d3r/noobdocs)
+You can find the repo at: [Repo](https://github.com/th3n00bc0d3r/noobdocs)
 
 ```
 Guides/ ## Directory for Uploading and Structuing the Guides
