@@ -1,0 +1,53 @@
+.myscrollarea {
+  position: relative;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.sidebar{
+  will-change: min-height;
+}
+
+.sidebar__inner{
+  transform: translate(0, 0); /* For browsers don't support translate3d. */
+  transform: translate3d(0, 0, 0);
+  will-change: position, transform;
+}
+
+.affix {
+  position: fixed;
+  top: 0;
+  z-index: 1030;
+}
+
+::ng-deep {
+  .myViewport {
+    width: 100%;
+    img {
+      max-width: calc(100% - 60px);
+      height: auto;
+    }
+  }
+}
+
+.breadcrumb {
+  background-color: #494d55;
+  border-radius: 0;
+    font-size: 18px;
+  li {
+    a {
+      color: white !important;
+    }
+  }
+}
+
+.topInfo {
+  background-color: #494d55;
+  h1 {
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+    padding-top: 10px;
+  }
+}

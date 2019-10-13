@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-12">
+    <div class="topInfo">
+      <h1>{{pageTitle}}</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item ">
+            <a href="/">Back to Home</a>
+          </li>
+          <li class="breadcrumb-item" *ngFor="let row of breadcrumbs">
+            <a [href]="row.path">{{row.name}}</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <div class="w-100"></div>
+
+  <div class="col-3">
+    <nav id="myScrollspy" data-toggle="affix">
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item" *ngFor="let row of sideLinks">
+          <a class="nav-link" href="/test{{row.link}}">{{row.title}}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="col-9">
+    <div class="myscrollarea" data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+      <div class="myViewport" [innerHtml]="generatedHtml | keepHtml"></div>
+    </div>
+  </div>
+</div>

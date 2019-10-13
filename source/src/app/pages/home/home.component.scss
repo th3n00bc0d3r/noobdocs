@@ -1,0 +1,13 @@
+
+::ng-deep {
+  .myViewport {
+    margin-top: 20px;
+
+    width: 100%;
+
+    img {
+      max-width: calc(100% - 60px);
+      height: auto;
+    }
+  }
+}

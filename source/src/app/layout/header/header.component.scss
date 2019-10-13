@@ -1,0 +1,45 @@
+.topbar {
+    height: 7px;
+    background-color: rgba(14, 151, 14, 0.61);
+}
+
+.header {
+    background-color: #494d55;
+    color: white;
+    height: 150px;
+}
+
+.logo {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    img {
+        width: 100%;
+    }
+}
+
+.slogan {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.headLinks {
+    margin-top: 24px;
+    a {
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+        i {
+            margin-right: 6px;
+        }
+    }    
+}
+
+.sidelinks {
+    text-align: right;
+    margin-top: 24px;
+    a {
+        margin-left: 10px;
+    }
+}
