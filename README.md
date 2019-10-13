@@ -66,3 +66,14 @@ Simple, it has to have a value or do not allow any entry to enter into it. i. e.
 ```
 
 As you can see it is very simple to link headings with the table of contents of your article.
+
+Summary of Contribution
+============
+
+1. Fork it
+2. Create Folder in noobdocs/Guides/Category/SubCategory/ArticleName
+3. Create your Article branch (`git checkout -b my-new-feature`)
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create new Pull Request
+
