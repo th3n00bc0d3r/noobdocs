@@ -1,15 +1,6 @@
-# Noob Docs
-A project to create an online doc system from github
+## What is Noob Docs?
 
-**This is Bold Text**
+Noob Docs is a complete Git Poweted Documentation System meaning it is a place where all documentations that have ever seemed make no sense become a documentation that makes sense. It is a repository for simplifying documentations and guides.
 
-1. Ordered 1
-2. Ordered 2
-3. Ordered 3
 
-This is an undordered list
-
-- Hello 1
-- Hello 2
-- Hello 3
 
