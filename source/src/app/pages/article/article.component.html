@@ -27,7 +27,7 @@
   </div>
   <div class="col-9">
     <div class="myscrollarea" data-spy="scroll" data-target="#myScrollspy" data-offset="1">
-      <div class="myViewport" [innerHtml]="generatedHtml | keepHtml"></div>
+      <div *ngIf="generatedHtml != undefined" class="myViewport" [innerHtml]="generatedHtml | keepHtml"></div>
     </div>
   </div>
 </div>
