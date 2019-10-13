@@ -20,7 +20,7 @@
     <nav id="myScrollspy" data-toggle="affix">
       <ul class="nav nav-pills flex-column">
         <li class="nav-item" *ngFor="let row of sideLinks">
-          <a class="nav-link" href="/test{{row.link}}">{{row.title}}</a>
+          <a class="nav-link" href="{{linkPath}}{{row.link}}">{{row.title}}</a>
         </li>
       </ul>
     </nav>

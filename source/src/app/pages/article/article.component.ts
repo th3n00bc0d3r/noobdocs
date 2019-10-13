@@ -22,6 +22,8 @@ export class ArticleComponent implements OnInit {
   breadcrumbs: any = [];
 
   pageTitle = '';
+  fullpath = '';
+  linkPath = '';
 
   constructor(
     private http: HttpClient,
@@ -30,17 +32,20 @@ export class ArticleComponent implements OnInit {
     private activatedRoute: ActivatedRoute
   ) { 
 
-    var fullpath = '';
+    this.fullpath = '';
     this.activatedRoute.snapshot.url.forEach(elem => {
-      fullpath = fullpath + '/' + elem.path;
+      this.fullpath = this.fullpath + '/' + elem.path;
       var d = {
         name: elem.path,
-        path: fullpath
+        path: this.fullpath
       }
       this.breadcrumbs.push(d);
     });    
 
     this.pageTitle = this.breadcrumbs[this.breadcrumbs.length - 1].name;
+
+    //console.log(this.router.url);
+    this.linkPath = this.router.url;
   }
 
 
