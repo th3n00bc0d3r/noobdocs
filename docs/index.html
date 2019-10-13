@@ -3,12 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>Noob Docs | The Simple Docs</title>
-  <base href="C:/Program Files/Git/docs/">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="https://kit.fontawesome.com/2b68d761f5.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="styles.65d6ac7dcde4cd59547b.css"></head>
 <body>
+  <!-- Github Pages hack to allow SPA refresh without receiving 404. -->
+  <script>
+      (function () {
+        // Retrieve the URL the user was trying to access when receiving the 404.
+        var redirect = sessionStorage.redirect;
+        // Remove the URL from sessionStorage.
+        delete sessionStorage.redirect;
+        // Check if we actually need to redirect.
+        if (redirect && redirect != location.href) {
+          // We need to redirect to the URL the user was trying to access.
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  <!-- /Github Pages hack. -->  
   <app-root></app-root>
 <script src="runtime-es2015.b948044840398824f16e.js" type="module"></script><script src="runtime-es5.b948044840398824f16e.js" nomodule defer></script><script src="polyfills-es5.f8b5a32bf736d11d106f.js" nomodule defer></script><script src="polyfills-es2015.d3e61f0dd2b58e518eca.js" type="module"></script><script src="scripts.6453161a25c099dc4f27.js" defer></script><script src="main-es2015.7ab4609db9345a8f3752.js" type="module"></script><script src="main-es5.7ab4609db9345a8f3752.js" nomodule defer></script></body>
 </html>
