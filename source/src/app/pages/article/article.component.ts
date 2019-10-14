@@ -2,13 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router, ActivatedRoute } from '@angular/router';
 import { MyserviceService } from 'src/app/services/myservice.service';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 var marked    = require('marked');
 var showdown  = require('showdown');
 
 declare var $: any;
-
-
 
 @Component({
   selector: 'app-details2',
@@ -29,7 +28,8 @@ export class ArticleComponent implements OnInit {
     private http: HttpClient,
     private router: Router,
     private mycon: MyserviceService,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private spinner: NgxSpinnerService
   ) { 
 
     this.fullpath = '';
@@ -51,11 +51,6 @@ export class ArticleComponent implements OnInit {
 
 
   ngAfterViewInit() {
-    $('button').click(function(e) {
-      e.preventDefault();
-      alert('Hello World');
-    });
-
     var toggleAffix = function(affixElement, scrollElement, wrapper) {
   
       var height = affixElement.outerHeight(),
@@ -90,6 +85,7 @@ export class ArticleComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.spinner.show();
     var url = this.mycon.gitAPIURL + this.router.url.replace('/docs/','');
     this.http.get(url, {
       headers: {
@@ -108,6 +104,7 @@ export class ArticleComponent implements OnInit {
                     (res) => {
                       var converter = new showdown.Converter();
                       this.generatedHtml = converter.makeHtml(res);
+                      this.spinner.hide();
                     },
                     (err) => {
                       console.log(err);

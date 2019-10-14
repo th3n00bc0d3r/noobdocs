@@ -1,5 +1,5 @@
 .breadcrumb {
-  background-color: #494d55;
+  background-color: #343a40;
   border-radius: 0;
     font-size: 20px;
   li {
@@ -15,7 +15,12 @@
     padding: 0;
     font-size: 22px;
     margin-left: 10px;
+    margin-top: 20px;
     li {
         margin-bottom: 10px;
     }
+}
+
+@media only screen and (max-width: 600px) {
+
 }

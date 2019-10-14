@@ -43,3 +43,42 @@
         margin-left: 10px;
     }
 }
+
+.navbar {
+    border-top: 7px solid rgba(14, 151, 14, 0.61);
+
+    .navbar-brand {
+        img {
+            width: 180px;
+            margin-top: -5px;
+        }
+    }
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    i {
+       width: 25px;
+       text-align: center;
+    }
+}
+
+.myRightMenu {
+    li {
+        a {
+            margin-left: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .myRightMenu {
+        .nav-item {
+            text-align: center;
+            a {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+    }    
+}

@@ -32,7 +32,7 @@
 }
 
 .breadcrumb {
-  background-color: #494d55;
+  background-color: #343a40;
   border-radius: 0;
     font-size: 18px;
   li {
@@ -50,4 +50,14 @@
     margin-left: 15px;
     padding-top: 10px;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .myscrollarea {
+    margin-top: 20px;
+  }
+}
+
+.smallPageTitle {
+  margin-top: 20px;
 }
